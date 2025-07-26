@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Outer circle background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,60m-56,0a56,56 0,1 1,112 0a56,56 0,1 1,-112 0" />
+
+    <!-- Plate -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M60,60m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0" />
+
+    <!-- Food items - simplified and colorful -->
+    <path
+        android:fillColor="#0EA5E9"  
+        android:pathData="M46,45L74,45A3,3 0,0 1,77 48L77,52A3,3 0,0 1,74 55L46,55A3,3 0,0 1,43 52L43,48A3,3 0,0 1,46 45z" />
+
+    <path
+        android:fillColor="#8B5CF6"  
+        android:pathData="M46,60L74,60A3,3 0,0 1,77 63L77,67A3,3 0,0 1,74 70L46,70A3,3 0,0 1,43 67L43,63A3,3 0,0 1,46 60z" />
+
+    <!-- Calendar symbol at bottom -->
+    <path
+        android:fillColor="#166534"  
+        android:pathData="M50,75L70,75A3,3 0,0 1,73 78L73,83A3,3 0,0 1,70 86L50,86A3,3 0,0 1,47 83L47,78A3,3 0,0 1,50 75z" />
+
+    <!-- Calendar lines -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M53,80L67,80" />
+    
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M60,76L60,84" />
+</vector>
